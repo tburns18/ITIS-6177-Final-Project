@@ -1,5 +1,5 @@
-# ITIS 6177 Final Project
-### by Tyler
+# ITIS 6177 Final Project - Language Understanding Intelligent Services 
+### Tyler Burns
 
 This is an implementation of the Microsoft Azure Language Understanding Intelligent Services (LUIS) API: (https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/)
 
