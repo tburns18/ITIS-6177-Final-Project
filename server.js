@@ -84,18 +84,18 @@ async function getPrediction(input) {
  * /pizza:
  *     post:
  *       tags:
- *         - Student
- *       description: creates new student
+ *         - Main
+ *       description: Calls LUIS API to retrieve LUIS output from language
  *       produces:
  *         - application/json
  *       parameters:
- *         - name: students
+ *         - name: document
  *           in: body
- *           description: Student
+ *           description: String input for pizza conversation
  *           required: true
  *       responses:
  *         200:
- *           description: Returns list of Students
+ *           description: Successfully returned response from LUIS API
  */
 
 app.post('/pizza', async (req, res) => {
